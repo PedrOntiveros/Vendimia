@@ -1,0 +1,47 @@
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+#titulo{
+	color: green;
+	font-weight: bold;
+	margin-bottom: -40px;
+	margin-left: 860px;
+	margin-top: 40px;
+}
+#etiqueta{
+	float: right;
+	margin-top: -20px;
+	position: relative;
+	width: 80px;
+	height: 80px;
+}
+header nav{
+	border-radius: 10px;
+	background: black;
+	margin: 40px 0;
+	padding: 5px 0;
+	color: white;
+}
+#fecha{
+	float: right;
+}
+header nav ul li {
+	display: inline-block;
+}
+#submenu{
+	display: none;
+	width: 15%;
+}
+#clientes{
+	display: none;
+}
+#tablaClientes{
+	margin: 10px;
+	border-top: 1px solid #6BE2ED;
+}
+#nuevoCliente{
+	float: right;
+}
