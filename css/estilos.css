@@ -13,28 +13,70 @@ body{
 }
 #etiqueta{
 	float: right;
+	height: 80px;
 	margin-top: -20px;
 	position: relative;
 	width: 80px;
-	height: 80px;
+	z-index: 1px;
 }
 header nav{
-	border-radius: 10px;
-	background: black;
-	margin: 40px 0;
-	padding: 5px 0;
-	color: white;
+	margin-top: 50px;
+	overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+header nav a{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+#navegador{
+	display: inline-block;
+	float: left;
+    overflow: hidden;
+}
+#navegador, #btnInicio{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+header nav a:hover, #navegador:hover #btnInicio {
+    background-color: black;
+}
+#submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    max-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+#submenu a {
+	float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+#submenu a:hover{
+	background-color: #ddd;
+}
+.show {
+    display: block;
 }
 #fecha{
+	color: white;
 	float: right;
+	text-align: center;
+	text-decoration: none;
 }
-header nav ul li {
-	display: inline-block;
-}
-#submenu{
-	display: none;
-	width: 15%;
-}
+
+
+
 #clientes{
 	display: none;
 }
